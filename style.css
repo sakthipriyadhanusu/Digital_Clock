@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #bee3f9;
+  color: #f0f0f0;
+  font-family:'Franklin Gothic Medium';
+  text-align : center;
+}
+
+.container {
+  background-color: #0f96f7;
+  padding: 40px;
+  border-radius: 12px;
+  
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #0f0404;
+}
+
+#clock {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#date {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #0e0303;
+}
+
+.blink {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
